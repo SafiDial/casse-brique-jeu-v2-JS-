@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(135deg, #222831, #393e46);
+  font-family: "Segoe UI", sans-serif;
+  color: #eeeeee;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/***** Titre *****/
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+/****** Canvas fond *****/
+#canevas {
+  display: block;
+  margin: 20px auto;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #bdc107;
+}
+
+/***** Vies ****/
+#vies {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/**** Message de fin ****/
+#message {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff6b6b;
+  margin-top: 15px;
+}
+
+/**** Bouton démarrer ***/
+#demarrer {
+  background: linear-gradient(45deg, #ffd700, #ff8c00);
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+#demarrer:hover {
+  transform: scale(1.1);
+}
